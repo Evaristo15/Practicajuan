@@ -1,0 +1,37 @@
+body {
+    background: #c1bdba;
+    font-family: "Ubuntu", helvetica;
+  }
+#sliderprincipal {
+    float: left;
+    margin-left: 7%; /* Ajusta este valor según tus necesidades */
+    margin-top: -5%; /* Ajusta este valor según tus necesidades */
+    margin-bottom: 10%;
+    
+}
+
+
+#galeriaslider {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 450px;
+    float: right;
+    margin-right: 100px; /* Ajusta este valor según tus necesidades */
+    
+}
+
+.foto {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.foto img {
+    width: 125px;
+    height: 125px;
+}
+.slider{
+    width: 500px;
+    height: 500px;
+}

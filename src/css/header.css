@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    background-color: #555;
+    padding: 0.5em;
+}
+
+nav a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    position: relative;
+    background-color: #777;
+}
+
+section {
+    position: relative;
+    padding: 1em;
+}
+
+form {
+    position: relative;
+    max-width: 400px;
+    margin: auto;
+}
+
+form input {
+    position: relative;
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+form button {
+    position: relative;
+    background-color: #333;
+    color: white;
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    position: relative;
+    background-color: #555;
+}
+h1 {
+    color: #0077cc;
+    
+}
+a{
+    color: #0077cc;
+
+}
